@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int suman(int n1,int n2) {
+    int suma = n1+n2;
+    return suma;
+}
+
+int main() {
+    int n1;
+    int n2;
+    cout<<"Dame un numero: "<<endl;
+    cin>>n1;
+    cout<<"Dame otro numero: "<<endl;
+    cin>>n2;
+    int suma = suman(n1,n2);
+    cout<<"suma = "<<suma<<endl;
+    return 0;
+}
